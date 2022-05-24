@@ -6,7 +6,7 @@ Build
 ```bash
 mkdir build && cd build
 cmake ..
-cmake --build . --config Release
+cmake --build . --config Release -j 4
 ```
 
 Usage
